@@ -7,7 +7,6 @@ public class Tasta0 implements IExecuta {
 
 
 
-    @Override
     public void afiseaza() {
         System.out.println("Tasta aleasa este "+ name);
     }

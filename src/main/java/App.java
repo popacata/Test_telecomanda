@@ -1,10 +1,18 @@
 import com.buttons.*;
+import com.buttons.interfete.IExecuta;
 
 import java.util.Scanner;
 
 public class App {
     public static void main (String [] args){
         Scanner scanner = new Scanner(System.in);
+
+        IExecuta executa1 = new Tasta1();
+        executa1.afiseaza();
+
+        IExecuta executa2 = new
+
+
 
         System.out.println("Salut!!");
         System.out.println("\n" +"-----------" +
